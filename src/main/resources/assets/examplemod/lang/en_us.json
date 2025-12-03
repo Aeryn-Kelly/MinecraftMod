@@ -1,0 +1,18 @@
+{
+  "item.examplemod.death_soup": "Death Soup",
+  "item.examplemod.turquoise_soup": "Turquoise Soup",
+  "item.examplemod.fairy_soup": "Fairy Soup",
+  "item.examplemod.spooky_soup": "Spooky Soup",
+  "item.examplemod.mystery_soup": "Mystery Soup",
+
+  "block.examplemod.cremini_block": "Cremini Mushroom",
+  "block.examplemod.angel_block": "Angel Mushroom",
+  "block.examplemod.oyster_block": "Oyster Mushroom",
+  "block.examplemod.pixie_block": "Pixie Mushroom",
+  "block.examplemod.cap_block": "Death Cap Mushroom",
+  "block.examplemod.amanita_block": "Black Amanita Mushroom",
+  "block.examplemod.russula_block": "Green Russula Mushroom",
+  "block.examplemod.jolm_block": "Jack-O-Lantern Mushroom",
+  "block.examplemod.bolete_block": "King Bolete Mushroom",
+  "block.examplemod.trumpet_block": "Death Trumpet Mushroom"
+}

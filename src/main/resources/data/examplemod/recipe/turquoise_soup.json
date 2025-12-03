@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "examplemod:oyster_block"
+    },
+    {
+      "item": "examplemod:russula_block"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "examplemod:turquoise_soup"
+  }
+}

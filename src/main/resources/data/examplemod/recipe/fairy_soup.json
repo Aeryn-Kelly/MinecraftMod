@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "examplemod:pixie_block"
+    },
+    {
+      "item": "examplemod:angel_block"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "examplemod:fairy_soup"
+  }
+}

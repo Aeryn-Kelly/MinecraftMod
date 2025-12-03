@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "examplemod:jolm_block"
+    },
+    {
+      "item": "examplemod:amanita_block"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "examplemod:spooky_soup"
+  }
+}
