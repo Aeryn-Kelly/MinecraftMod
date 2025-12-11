@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "examplemod:spooky_spore"
+    },
+
+    {
+      "item": "minecraft:wooden_sword"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "examplemod:spooky_sword"
+  }
+}

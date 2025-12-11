@@ -9,10 +9,8 @@ import net.minecraft.core.registries.Registries;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.food.FoodProperties;
-import net.minecraft.world.item.BlockItem;
-import net.minecraft.world.item.CreativeModeTab;
-import net.minecraft.world.item.CreativeModeTabs;
-import net.minecraft.world.item.Item;
+import net.minecraft.world.item.*;
+import net.minecraft.world.item.component.Tool;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.FlowerBlock;
@@ -71,6 +69,8 @@ public class ExampleMod
 
 //Items
 
+//Soup
+
 //Death Soup
 public static final RegistryObject<Item> DEATH_SOUP = ITEMS.register("death_soup", () -> new Item(new Item.Properties().food(new FoodProperties.Builder()
           .alwaysEdible().nutrition(1).saturationModifier(2f).effect(new MobEffectInstance(MobEffects.WITHER, 1000), 1.0f).build())));
@@ -86,6 +86,43 @@ public static final RegistryObject<Item> SPOOKY_SOUP = ITEMS.register("spooky_so
 // Mystery Soup
 public static final RegistryObject<Item> MYSTERY_SOUP = ITEMS.register("mystery_soup", () -> new Item(new Item.Properties().food(new FoodProperties.Builder()
         .alwaysEdible().nutrition(1).saturationModifier(2f).effect(new MobEffectInstance(MobEffects.INFESTED, 1000), 1.0f).effect(new MobEffectInstance(MobEffects.CONFUSION, 1000), 1.0f).build())));
+
+//Spores
+
+    public static final RegistryObject<Item> DEATH_SPORE = ITEMS.register("death_spore", () -> new Item(new Item.Properties().food(new FoodProperties.Builder()
+            .alwaysEdible().nutrition(1).saturationModifier(2f).effect(new MobEffectInstance(MobEffects.HUNGER, 1000), 1.0f).build())));
+    // Turquoise Soup
+    public static final RegistryObject<Item> TURQUOISE_SPORE = ITEMS.register("turquoise_spore", () -> new Item(new Item.Properties().food(new FoodProperties.Builder()
+            .alwaysEdible().nutrition(1).saturationModifier(2f).effect(new MobEffectInstance(MobEffects.HUNGER, 1000), 1.0f).build())));
+    // Fairy Soup
+    public static final RegistryObject<Item> FAIRY_SPORE = ITEMS.register("fairy_spore", () -> new Item(new Item.Properties().food(new FoodProperties.Builder()
+            .alwaysEdible().nutrition(1).saturationModifier(2f).effect(new MobEffectInstance(MobEffects.HUNGER, 1000), 1.0f).build())));
+    // Spooky Soup
+    public static final RegistryObject<Item> SPOOKY_SPORE = ITEMS.register("spooky_spore", () -> new Item(new Item.Properties().food(new FoodProperties.Builder()
+            .alwaysEdible().nutrition(1).saturationModifier(2f).effect(new MobEffectInstance(MobEffects.HUNGER, 1000), 1.0f).build())));
+    // Mystery Soup
+    public static final RegistryObject<Item> MYSTERY_SPORE = ITEMS.register("mystery_spore", () -> new Item(new Item.Properties().food(new FoodProperties.Builder()
+            .alwaysEdible().nutrition(1).saturationModifier(2f).effect(new MobEffectInstance(MobEffects.HUNGER, 1000), 1.0f).build())));
+
+    // Swords (Was going to have spores added to swords give an enchantment benifit, but it is too difficult for now) :(
+    // I have no idea what to do with these
+
+    // Death Sword
+    public static final RegistryObject<Item> DEATH_SWORD = ITEMS.register("death_sword",
+            () -> new SwordItem(Tiers.WOOD, new Item.Properties()));
+    // Turquoise Sword
+    public static final RegistryObject<Item> TURQUOISE_SWORD = ITEMS.register("turquoise_sword",
+            () -> new SwordItem(Tiers.WOOD, new Item.Properties()));
+    // Fairy Sword
+    public static final RegistryObject<Item> FAIRY_SWORD = ITEMS.register("fairy_sword",
+            () -> new SwordItem(Tiers.WOOD, new Item.Properties()));
+    // Spooky Sword
+    public static final RegistryObject<Item> SPOOKY_SWORD = ITEMS.register("spooky_sword",
+            () -> new SwordItem(Tiers.WOOD, new Item.Properties()));
+    // Mystery Sword
+    public static final RegistryObject<Item> MYSTERY_SWORD = ITEMS.register("mystery_sword",
+            () -> new SwordItem(Tiers.WOOD, new Item.Properties()));
+
 
 //Blocks
 

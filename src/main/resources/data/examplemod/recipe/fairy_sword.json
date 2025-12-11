@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "examplemod:fairy_spore"
+    },
+
+    {
+      "item": "minecraft:wooden_sword"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "examplemod:fairy_sword"
+  }
+}

@@ -5,6 +5,18 @@
   "item.examplemod.spooky_soup": "Spooky Soup",
   "item.examplemod.mystery_soup": "Mystery Soup",
 
+  "item.examplemod.death_spore": "Death Spore",
+  "item.examplemod.turquoise_spore": "Turquoise Spore",
+  "item.examplemod.fairy_spore": "Fairy Spore",
+  "item.examplemod.spooky_spore": "Spooky Spore",
+  "item.examplemod.mystery_spore": "Mystery Spore",
+
+  "item.examplemod.death_sword": "Death Sword",
+  "item.examplemod.turquoise_sword": "Turquoise Sword",
+  "item.examplemod.fairy_sword": "Fairy Sword",
+  "item.examplemod.spooky_sword": "Spooky Sword",
+  "item.examplemod.mystery_sword": "Mystery Sword",
+
   "block.examplemod.cremini_block": "Cremini Mushroom",
   "block.examplemod.angel_block": "Angel Mushroom",
   "block.examplemod.oyster_block": "Oyster Mushroom",
